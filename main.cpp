@@ -1,8 +1,18 @@
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout<<"Hello World";
 
-    return 0;
+int fib(int n){
+    if (n == 1 || n == 2)
+        return 1;
+    return fib(n - 1) + fib(n - 2);
+}
+    
+    
+    int main(){
+        int n;
+            cout << "Введите n -----> "; 
+        cin >> n;
+        cout << "результат -----> " << fib(n) << endl;
+        return 0;
 }

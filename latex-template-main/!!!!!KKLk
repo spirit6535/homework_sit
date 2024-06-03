@@ -1,0 +1,22 @@
+\intro
+\input{section/introduction}
+\include{section/cass_and_history_games}
+\include{section/stages_development_games}
+\include{section/3}
+% После введения — серии \section, \subsection и т.д.
+
+\conclusion
+\input{section/input.tex}
+% Отобразить все источники. Даже те, на которые нет ссылок.
+% \nocite{*}
+\cite{is1}
+\cite{is2}
+\cite{is3}
+\cite{is4}
+\cite{is5}
+\cite{is6}
+\cite{is7}
+\cite{is8}
+\cite{is9}
+\cite{is10}
+\cite{is11}
